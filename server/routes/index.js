@@ -6,7 +6,7 @@ var mother = require('../modules/mother.js');
 
 
 
-router.get("/addEmployee/type:", function(request, response){
+router.get("/addEmployee", function(request, response){
     var employee = mother();
 
     console.log(employee);
